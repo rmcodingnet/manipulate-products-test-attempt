@@ -64,21 +64,21 @@ You will also see any lint errors in the console.
 
 Task 1: Initially it went pretty well adding the database.js objects to a table was relativly easy using ES6 array functions.
 
-        I started working on sorting got some function implemented however I'm not certain that is working correctly going off of the console output. 
+I started working on sorting got some function implemented however I'm not certain that is working correctly going off of the console output. 
 
-        For filtering I ended up resorting to indivual buttons however with more time this could be converted to a drop down list and the individual filter functions could be consolidated into one filter function. 
+For filtering I ended up resorting to indivual buttons however with more time this could be converted to a drop down list and the individual filter functions could be consolidated into one filter function. 
 
-        I wasn't sure how to do pagination so moved onto working on task 2. 
+I wasn't sure how to do pagination so moved onto working on task 2. 
 
-        If given the oppertunity to do task 1 again I think I would resort to using a library as the functionality required  for task 1 is easier to implement
+If given the oppertunity to do task 1 again I think I would resort to using a library as the functionality required  for task 1 is easier to implement
 
 
 Task 2: Creating the form itself was easy enough however as we discussed I wasn't sure how to modify the database.js file. I didn't realise initially that you wanted me to pass the form Input 
         directly into the ProductList component. 
 
-        Given more time I would fix this I tried to do a hacky work around to make it work with my current structure however it doesn't work therefore I would make the form component a child of productlist component and put the addToDatabase function within the productlist component which would then be passed down to the form component. 
+Given more time I would fix this I tried to do a hacky work around to make it work with my current structure however it doesn't work therefore I would make the form component a child of productlist component and put the addToDatabase function within the productlist component which would then be passed down to the form component. 
 
-        I think overall I was to focused on writing to the db.js file I began to overcomplicate it. 
+I think overall I was to focused on writing to the db.js file I began to overcomplicate it. 
 
 Task 3: I wasn't entirely sure how to do this task by the time I got around to working on it. In the code you will see my strange attempt at working this out. 
         I believed the solution was related to using ES6 array functions although I think there may be more steps to it than I initially thought. 
