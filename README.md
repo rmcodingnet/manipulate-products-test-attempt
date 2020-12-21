@@ -89,3 +89,21 @@ Task 4: This was completed using React Router. Didn't any trouble working this o
 
 Overall I wish I did better at this test however this just means I will learn a lot when we go over the proper solution. 
 
+
+### Additional Thoughts
+
+So these are some of thing I'd like to comment on now that i'm looking at the project with fresh eyes today.
+For getting 6 Items:
+                  I think correct way to do this would be to sort all of the items by price min to max
+                  Then when you click on a product it will get 3 items before it in the list and 3 items after it.
+                  
+For Filtering products:
+                      These show functions should all be combined into one function with the product.category
+                      passed in as a parameter
+
+For Sorting:
+            I think the logic itself is fine although the array isn't updating.
+            Probably because I don't call the function within the return part of the function. 
+            Although looking at the data when I console visibly the array hasn't changed
+
+
